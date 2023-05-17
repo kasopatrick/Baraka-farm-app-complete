@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "918816246483",
+    "firebase_url": "https://trent2-default-rtdb.firebaseio.com",
+    "project_id": "trent2",
+    "storage_bucket": "trent2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918816246483:android:67673501c079d5911be226",
+        "android_client_info": {
+          "package_name": "com.example.trent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918816246483-m6dd97f2jo5j8v90ng4ala7u92b7u9un.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBveXt6YT9KSp35x9t49sOVyxrqziJnkJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918816246483-80kjaofk9e89pk6jsvgihf66hkg22p1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

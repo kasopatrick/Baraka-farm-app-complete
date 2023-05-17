@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bakg"
+    tools:context=".Users">
+
+    <TextView
+        android:id="@+id/mtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:layout_marginBottom="29dp"
+        android:text="Welcome Home"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageV"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="79dp"
+        app:layout_constraintBottom_toTopOf="@+id/mbtnview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mtitle"
+        app:srcCompat="@drawable/fressian" />
+
+    <Button
+        android:id="@+id/mbtnview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginBottom="22dp"
+        android:text="view supplies"
+        app:layout_constraintBottom_toTopOf="@+id/mbtnadvice"
+        app:layout_constraintStart_toStartOf="@+id/mbtnadvice"
+        app:layout_constraintTop_toBottomOf="@+id/imageV" />
+
+    <Button
+        android:id="@+id/mbtnadvice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="Get advice on farming"
+        app:layout_constraintBottom_toTopOf="@+id/mbtncontact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mbtnview" />
+
+    <Button
+        android:id="@+id/mbtncontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginBottom="34dp"
+        android:text="Contact Mnager"
+        app:layout_constraintBottom_toTopOf="@+id/mBtnaddSuplies"
+        app:layout_constraintStart_toStartOf="@+id/mbtnadvice"
+        app:layout_constraintTop_toBottomOf="@+id/mbtnadvice" />
+
+    <Button
+        android:id="@+id/mBtnaddSuplies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="44dp"
+        android:text="Add supplies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/mbtncontact"
+        app:layout_constraintTop_toBottomOf="@+id/mbtncontact" />
+</androidx.constraintlayout.widget.ConstraintLayout>

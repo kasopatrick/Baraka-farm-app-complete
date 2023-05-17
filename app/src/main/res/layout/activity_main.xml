@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/blue"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxHeight="300dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nTvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="90dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="100px"
+        android:text="WELCOME TO TRENT'S FARM"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textSize="25dp" />
+
+
+    <ImageView
+        android:id="@+id/Image_1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:paddingTop="100px"
+        android:src="@drawable/cowdraw" />
+
+    <Button
+        android:id="@+id/mBtnStart"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="GET STARTED" />
+
+    <TextView
+        android:textColor="#F7030404"
+        android:textSize="16dp"
+        android:id="@+id/edtText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#72AA03"
+        android:paddingLeft="50px"
+        android:paddingTop="80px"
+        android:paddingBottom="40px"
+        android:text="Welcome to Trent's farm, feel welcomed and we are ready to offer you any services you need concerning dairy farming "
+        android:textFontWeight="11" />
+
+    <ImageView
+        android:id="@+id/Image_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cow" />
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blueback"
+    tools:context=".Contact">
+
+    <TextView
+        android:id="@+id/mTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="50dp"
+        android:text="Welcome to the Manager's page"
+        android:textColor="#FF5722"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginBottom="76dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imagEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mTitle"
+        app:srcCompat="@drawable/pyllis" />
+
+    <TextView
+        android:id="@+id/BTNemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"
+        android:text="kasopatrick5@gmail.com"
+        android:textColor="#AC031D"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/imagEmail"
+        app:layout_constraintTop_toTopOf="@+id/imagEmail" />
+
+    <TextView
+        android:id="@+id/BTNcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="0728474931"
+        android:textColor="#AC031D"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imagPhone"
+        app:layout_constraintStart_toEndOf="@+id/imagPhone" />
+
+    <ImageButton
+        android:id="@+id/imagEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="272dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <ImageButton
+        android:id="@+id/imagPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        app:layout_constraintStart_toStartOf="@+id/imagEmail"
+        app:layout_constraintTop_toBottomOf="@+id/imagEmail"
+        app:srcCompat="@android:drawable/ic_menu_call" />
+
+    <TextView
+        android:id="@+id/EDTtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_horizontal"
+        android:text="Meet Phyllis Keino as the Manager of Trent farm"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/mTitle"
+        app:layout_constraintTop_toBottomOf="@+id/mTitle" />
+
+    <ImageButton
+        android:id="@+id/imagsms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_send"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="561dp" />
+
+    <TextView
+        android:id="@+id/BTNsms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="Send SMS"
+        android:textColor="#AC031D"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imagsms"
+        tools:layout_editor_absoluteX="127dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
